@@ -1,0 +1,19 @@
+ALGORITHM sum
+VAR
+   tab1,tab2 : ARRAY_OF INTEGER[5];
+   i:INTEGER:=0
+   found:BOOLEAN;
+BEGIN
+    FOR i FROM 0 TO 5 STEP 1  DO
+    found=false
+        Read(tab1[i])
+        Read(tab2[i])
+        FOR J FROM 0 TO 5 STEP 1 DO
+        IF (Tab1[i]==Tab2[j]) THEN
+            found=true
+        END_IF
+        IF (found=false) THEN
+         s=s+tab[i]
+        END_IF   
+    END_FOR
+END
